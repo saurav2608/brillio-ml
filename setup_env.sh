@@ -23,7 +23,6 @@ else
 fi
 
 
-sudo apt-get install wget
 wget -q "https://repo.continuum.io/miniconda/Miniconda3-latest-$CONDA_OS.sh" -O miniconda.sh
 chmod +x miniconda.sh
 ./miniconda.sh -b
@@ -53,7 +52,7 @@ conda list
 
 echo
 echo "conda env create -q --file=code.yml"
-time conda env create -q --file=env/code.yml
+conda env create -q --file=env/code.yml
 
 echo "activate code"
 conda activate code
