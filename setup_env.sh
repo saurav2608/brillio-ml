@@ -23,7 +23,7 @@ else
 fi
 
 
-apt-get install wget
+sudo apt-get install wget
 wget -q "https://repo.continuum.io/miniconda/Miniconda3-latest-$CONDA_OS.sh" -O miniconda.sh
 chmod +x miniconda.sh
 ./miniconda.sh -b
