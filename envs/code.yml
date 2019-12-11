@@ -1,0 +1,12 @@
+name: code 
+channels:
+  - conda-forge
+dependencies:
+  # required
+  - pandas
+  - pip
+
+  - pip:
+    - scikit-learn
+    - mlflow[extras]
+    - azure-storage
