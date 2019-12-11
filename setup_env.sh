@@ -50,9 +50,6 @@ source deactivate
 
 echo "conda list (root environment)"
 conda list
-
-set -x #echo on
-
 ls -al
 pwd
 
