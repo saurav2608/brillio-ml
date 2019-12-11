@@ -57,7 +57,7 @@ pwd
 
 echo
 echo "conda env create -q --file=code.yml"
-conda env create -q --file=env/code.yml
+conda env create -q --file=envs/code.yml
 
 echo "activate code"
 conda activate code
