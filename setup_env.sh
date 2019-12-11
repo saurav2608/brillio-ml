@@ -51,7 +51,7 @@ conda list
 
 echo
 echo "conda env create -q --file=code.yml"
-time conda env create -q --file=env/code.yml"
+time conda env create -q --file=env/code.yml
 
 echo "activate code"
-source activate code
+conda activate code
