@@ -9,13 +9,13 @@ fi
 
 echo "Install Miniconda"
 UNAME_OS=$(uname)
-if [[ "$UNAME_OS" == 'Linux' ]]; then
-    if [[ "$BITS32" == "yes" ]]; then
+if [ "$UNAME_OS" == 'Linux' ]; then
+    if [ "$BITS32" == "yes" ]; then
         CONDA_OS="Linux-x86"
     else
         CONDA_OS="Linux-x86_64"
     fi
-elif [[ "$UNAME_OS" == 'Darwin' ]]; then
+elif [ "$UNAME_OS" == 'Darwin' ]; then
     CONDA_OS="MacOSX-x86_64"
 else
   echo "OS $UNAME_OS not supported"
