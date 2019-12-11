@@ -51,6 +51,13 @@ source deactivate
 echo "conda list (root environment)"
 conda list
 
+set -x #echo on
+
+ls -al
+pwd
+
+
+
 echo
 echo "conda env create -q --file=code.yml"
 conda env create -q --file=/env/code.yml
