@@ -21,6 +21,8 @@ else
   echo "OS $UNAME_OS not supported"
   exit 1
 fi
+
+apt-get install -y sudo
 sudo apt-get install wget
 wget -q "https://repo.continuum.io/miniconda/Miniconda3-latest-$CONDA_OS.sh" -O miniconda.sh
 chmod +x miniconda.sh
