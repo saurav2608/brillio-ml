@@ -1,3 +1,4 @@
+#test_inputs.py
 import pytest
 
 def func(x):
