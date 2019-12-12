@@ -1,3 +1,2 @@
 #!/bin/bash
-conda activate code
-python code/train.py .2 .3
+python3 code/train.py .2 .3
