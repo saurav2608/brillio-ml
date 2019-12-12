@@ -63,6 +63,6 @@ echo "activate code"
 conda activate code
 
 pwd
-mkdir data
+mkdir ~/data
 python3 code/data.py
 ls data

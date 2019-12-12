@@ -10,4 +10,4 @@ except Exception as e:
     logger.exception(
         "Unable to download training & test CSV, check your internet connection. Error: %s", e)
 
-data.to_csv('data/df.csv')
+data.to_csv('~/data/df.csv')
