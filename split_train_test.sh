@@ -1,5 +1,3 @@
-#!/bin/bash
-
 #!/bin/bash -e
 MINICONDA_DIR="$HOME/miniconda3"
 
@@ -64,4 +62,4 @@ conda env create -q --file=envs/code.yml
 echo "activate code"
 conda activate code
 
-python3 code/train.py .5 .6
+python3 code/split_data.py
