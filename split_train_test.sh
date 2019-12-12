@@ -62,4 +62,5 @@ conda env create -q --file=envs/code.yml
 echo "activate code"
 conda activate code
 
+pwd
 python3 code/split_data.py
