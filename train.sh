@@ -8,4 +8,4 @@ which conda
 echo "conda list"
 conda list
 
-python3 code/train.py .2 .3
+python3 code/train.py .5 .6
