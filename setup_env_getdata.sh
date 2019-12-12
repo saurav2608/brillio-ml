@@ -65,3 +65,4 @@ conda activate code
 pwd
 mkdir data
 python3 code/data.py
+ls data
