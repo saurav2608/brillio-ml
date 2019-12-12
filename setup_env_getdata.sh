@@ -62,5 +62,6 @@ conda env create -q --file=envs/code.yml
 echo "activate code"
 conda activate code
 
+if [ -d ~/data_trg ]; then rm -Rf ~/data_trg; fi
 mkdir ~/data_trg
 python3 code/data.py
