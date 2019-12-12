@@ -1,1 +1,1 @@
-python -m pytest test/test_inputs.py
+python -m pytest
