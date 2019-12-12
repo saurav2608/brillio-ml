@@ -10,3 +10,4 @@ dependencies:
     - scikit-learn
     - mlflow[extras]
     - azure-storage
+    - pytest
