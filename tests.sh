@@ -1,1 +1,1 @@
-pytest test_inputs.py
+python test_inputs.py
