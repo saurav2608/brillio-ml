@@ -17,6 +17,7 @@ import mlflow.sklearn
 
 import logging
 mlflow.set_tracking_uri('http://52.230.49.126:5000')
+mlflow.create_experiment('Training with elasticnet')
 logging.basicConfig(level=logging.WARN)
 logger = logging.getLogger(__name__)
 
