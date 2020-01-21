@@ -29,7 +29,6 @@ if __name__ == "__main__":
     warnings.filterwarnings("ignore")
     np.random.seed(40)
 
-    # Split the data into training and test sets. (0.75, 0.25) split.
     train = pd.read_csv('./train.csv')
     test = pd.read_csv('./test.csv')
 
