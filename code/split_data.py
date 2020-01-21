@@ -8,8 +8,8 @@ from sklearn.model_selection import train_test_split
 
 np.random.seed(40)
 
-# Read the wine-quality csv file from the data folder 
-data = pd.read_csv('./df.csv')
+# Read the csv file from the data folder 
+data = pd.read_csv('./df.csv', sep=';')
 print(data.head())
 
 # Split the data into training and test sets. (0.75, 0.25) split.
