@@ -30,8 +30,8 @@ if __name__ == "__main__":
     np.random.seed(40)
 
     # Split the data into training and test sets. (0.75, 0.25) split.
-    train = pd.read_csv('~/data_trg/train.csv')
-    test = pd.read_csv('~/data_trg/test.csv')
+    train = pd.read_csv('./data_trg/train.csv')
+    test = pd.read_csv('./data_trg/test.csv')
 
     # The predicted column is "quality" which is a scalar from [3, 9]
     train_x = train.drop(["quality"], axis=1)
