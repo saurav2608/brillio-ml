@@ -64,4 +64,4 @@ conda env create -q --file=envs/code.yml
 echo "activate code"
 conda activate code
 
-python3 code/train.py .5 .6
+python3 code/train.py .8 .7
