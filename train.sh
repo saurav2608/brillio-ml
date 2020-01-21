@@ -64,7 +64,10 @@ conda env create -q --file=envs/code.yml
 echo "activate code"
 conda activate code
 
+echo "data.py"
 python3 code/data.py
+echo "split_data.py"
 python3 code/split_data.py
+echo "train.py"
 python3 code/train.py .8 .7
 python -m pytest
