@@ -51,10 +51,6 @@ echo "source deactivate"
 source deactivate
 
 echo "conda list (root environment)"
-conda list
-ls -al
-pwd
-
 
 
 echo
@@ -66,9 +62,20 @@ conda activate code
 
 echo "data.py"
 python3 code/data.py
-ls -al
+
 echo "split_data.py"
 python3 code/split_data.py
+echo
+
+echo "source deactivate"
+conda deactivate
+
+echo "conda env create -q --file=code.yml"
+conda env create -q --file=envs/ml.yml
+
+echo "activate code"
+conda activate ml
+
 echo "train.py"
 python3 code/train.py .8 .7
 python -m pytest
