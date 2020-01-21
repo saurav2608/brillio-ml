@@ -66,6 +66,7 @@ conda activate code
 
 echo "data.py"
 python3 code/data.py
+ls -al
 echo "split_data.py"
 python3 code/split_data.py
 echo "train.py"
