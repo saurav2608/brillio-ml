@@ -77,5 +77,5 @@ echo "activate code"
 conda activate ml
 
 echo "train.py"
-python3 code/train.py .3 .8
+python3 code/train.py .4 .5
 python -m pytest
