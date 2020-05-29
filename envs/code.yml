@@ -10,6 +10,6 @@ dependencies:
   - pip:
     - scikit-learn
     - mlflow[extras]
-    - azure-storage
+    - azure-storage==0.36.0
     - pytest
     - azure-storage-blob==12.1.0
